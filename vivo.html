@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+    .img1{
+        display: none;
+    }
+
+    .chnge{
+        display: block;
+    }
+</style>
+<style>
+    .img2{
+        display: none;
+    }
+
+    .chnge{
+        display: block;
+    }
+</style>
+<style>
+  .img3{
+      display: none;
+  }
+
+  .chnge{
+      display: block;
+  }
+</style>
+<style>
+  .img4{
+      display: none;
+  }
+
+  .chnge{
+      display: block;
+  }
+  #ad1{
+    height: 30px;
+    width:200px ;
+    text-align: center;
+  }
+</style>
+
+</head>
+
+<body>
+<div>This is vivo</div>
+<img class="img1" src="https://th.bing.com/th/id/OIP.oh4kNnQtYxZIDJDssP2D2QHaFq?pid=ImgDet&rs=1">
+<button class="btn1">
+this is click image.</button> 
+
+<div>This is samsung</div>
+<img class="img2" src="https://th.bing.com/th/id/OIP.GzMUajgBfjJb5ChrLBEpQgHaHa?pid=ImgDet&rs=1">
+<button claSS="btn2">
+This is click sumsung.</button>
+
+<div>This is oppo</div>
+<img class="img3" src="https://th.bing.com/th/id/OIP.iJYl-lKRrJyJbP12KPziSgHaIV?pid=ImgDet&rs=1">
+<button  class="btn3">
+This is click oppo.</button>
+
+<div>This is poco</div>
+<img class="img4" src="https://th.bing.com/th/id/OIP.uZNULn0AF9UhlCGywlf49wHaHa?pid=ImgDet&rs=1">
+<button class="btn4">
+This is click poco.</button>
+<input type="search" placeholder="search" id="ad1">
+
+<script>
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $(".img1").toggleClass('chnge');
+  });
+});
+
+</script>
+<script>
+    $(document).ready(function(){
+      $(".btn2").click(function(){
+        $(".img2").toggleClass('chnge');
+      });
+    });
+    
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".btn3").click(function(){
+        $(".img3").toggleClass('chnge');
+      });
+    });
+    
+  </script>
+  <script>
+    $(document).ready(function(){
+      $(".btn4").click(function(){
+        $(".img4").toggleClass('chnge');
+      });
+    });
+    
+  </script>
+    
+
+</body>
+
+</html>

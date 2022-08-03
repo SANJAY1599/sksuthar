@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hide_show</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('p').click(function(){
+                $('mewetiy').hide();
+                $('sanjana').show();
+
+            });
+        });
+    </script>
+</head>
+<body>
+<p id="h">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis reiciendis aliquam voluptate ad veniam quidem magnam et laudantium quod odio! Assumenda maiores dolorem tenetur ipsam mollitia, est eveniet sint molestiae quae. Incidunt autem quaerat mollitia. Accusantium sint recusandae ex debitis voluptatem esse commodi cupiditate asperiores ipsum. Facilis, fuga quas? Eligendi?
+</p>
+<button type="button" onclick="document.getElementById('h').style.display='block'">dic</button>
+<button type="button" onclick="document.getElementById('h').style.display='none'">hide</button>
+<p id="d">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ut ipsa inventore amet reiciendis dolor iste accusantium! Delectus iusto nobis quidem minus dolorem, magni aut praesentium accusamus eos laboriosam animi, ipsum perferendis nisi ab impedit non ducimus ea nemo odio at? Repudiandae doloremque veritatis, hic quis exercitationem perferendis? Repellendus, aperiam! Ipsa earum ullam doloremque eos nobis, incidunt deserunt. Officiis corporis assumenda reiciendis beatae quibusdam quos, fuga molestias animi exercitationem ducimus?</p>
+<button type="button" onclick="document.getElementById('d').style.display='none'">hide</button>
+<button type="button" onclick="document.getElementById('d').style.display='block'">dic</button>
+
+</body>
+</html>
